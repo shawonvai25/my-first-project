@@ -1,0 +1,11 @@
+a:hover {
+  background-color: greenyellow;
+}
+li:hover {
+  background-color: #ffca7a;
+  font-size: 40px;
+}
+.monk-mode:hover {
+  color: #ff0033;
+  background-color: #673ab7;
+}

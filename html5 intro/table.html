@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 5px 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li>
+            <a href="table.html">Table</a>
+
+            <ul class="dropdown">
+              <li><a href="video.html">Video</a></li>
+              <li><a href="form.html">Form</a></li>
+              <li><a href="table.html">Table</a></li>
+              <li><a href="blog.html">Blog </a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>HTML table</h1>
+      <table>
+        <caption>
+          Employee salary data
+        </caption>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Founder Microsoft</td>
+            <td>$1200</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Mark Zukerberg</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total employee: 4</td>
+          </tr>
+        </tfoot>
+      </table>
+      <ul>
+        <li>Table: table</li>
+        <li>table head: thead</li>
+        <li>Table body: tbody</li>
+        <li>Table foot : tfoot</li>
+        <li>Table row: tr</li>
+        <li>Table data: td</li>
+        <li>Table header cell: th</li>
+        <li>caption</li>
+      </ul>
+
+      <button disabled>Click me</button>
+      <button title="please click me">Click me</button>
+      <input type="number" max="10" min="5" name="" id="" />
+    </main>
+  </body>
+</html>
